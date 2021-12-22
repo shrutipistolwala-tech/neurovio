@@ -1,14 +1,5 @@
-//Directions are using the same pins from zoomkat servo button toggle test code so that a zwave switch could easily be added to test new code
-            //run 4.8 to 6v ground wire spliced to servo and ground on digital side of nano,
-      // and a 3rd splice to z wave isolated switch to switch the ground for the nano to read
-      //then the other side of the z-wave isolated switch (same ground) back to pin D7 on nano
-      //the 4.8 to 6v positive/red wire to servo motor
-      //run servo's white control wire to pin D5
-      // run separate 12v to VIN pin on nano and the same 12v source's ground to the GRN pin next to VIN
-
-                        // Shout out and Thanks a ton to Zoomkat for the first code for the momentary switch. I have learned a ton!
-                        //Thanks Lar3ry for showing me things to learn to better my skills, I have learned a ton!
-
+ // Shout out and Thanks a ton to Zoomkat for the first code for the momentary switch. I have learned a ton!
+//Thanks Lar3ry for showing me things to learn to better my skills, I have learned a ton!
 //zoomkat servo button toggle test 4-28-2012  combined from code suggested my reallifeonhold source unknown
 
 #include <Servo.h>
