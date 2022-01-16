@@ -36,7 +36,7 @@ class MealsListData {
       imagePath: 'assets/fitness_app/snack.png',
       titleTxt: 'Strength',
       kacl: 0,
-      meals: <String>['Recommend:', 'Make a fist'],
+      meals: <String>['Next goal:', 'Make a fist'],
       startColor: '#FE95B6',
       endColor: '#FF5287',
     ),
